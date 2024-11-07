@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  /* background-color:  #fefefe; */
+  backdrop-filter: blur(10px); /* Equivalente a backdrop-blur-xl */
+  /* background-color: transparent; */
+  background-color: rgba(0, 0, 0, 0.2);
+  /* background-image: url('../../public/icons/icon128.png'); */
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+}
+
 /* custom switch button */
 /* From Uiverse.io by Admin12121 by this url: https://uiverse.io/vinodjangid07/gentle-parrot-87*/
 /* From Uiverse.io by vinodjangid07 */

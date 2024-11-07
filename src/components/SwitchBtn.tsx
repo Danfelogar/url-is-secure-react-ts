@@ -1,7 +1,15 @@
+import { useBoundStore } from '../store';
+
 export const SwitchBtn = () => {
+  const { allowScanningUrls, changeAllowScanningUrls } = useBoundStore();
   return (
     <div>
-      <input type="checkbox" id="checkbox" />
+      <input
+        type="checkbox"
+        id="checkbox"
+        checked={allowScanningUrls}
+        onChange={() => changeAllowScanningUrls(!allowScanningUrls)}
+      />
       <label htmlFor="checkbox" className="switch">
         Start
         <svg

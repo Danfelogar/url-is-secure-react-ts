@@ -48,3 +48,54 @@ export default tseslint.config({
   },
 })
 ```
+/Volumes/Daniel7w7rSSD/programacion/url-is-secure
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.js
+├── public
+│   ├── icons
+│   │   ├── icon128.png
+│   │   ├── icon16.png
+│   │   ├── icon32.png
+│   │   └── icon48.png
+│   ├── logoWithoutBg.png
+│   ├── manifest.json
+│   └── vite.svg
+├── src
+│   ├── App.tsx
+│   ├── api
+│   │   ├── index.ts
+│   │   └── urlScanApi.ts
+│   ├── background.ts
+│   ├── components
+│   │   ├── StatusBtn.tsx
+│   │   ├── SwitchBtn.tsx
+│   │   ├── WarningDialog.tsx
+│   │   └── index.ts
+│   ├── content.js
+│   ├── hooks
+│   │   ├── index.ts
+│   │   └── useManagementURL.ts
+│   ├── main.tsx
+│   ├── store
+│   │   ├── index.ts
+│   │   ├── slices
+│   │   │   ├── index.ts
+│   │   │   └── settingsSlice.ts
+│   │   └── store.ts
+│   ├── styles
+│   │   └── index.css
+│   ├── util
+│   │   ├── formatTimeHHmmss.ts
+│   │   └── index.ts
+│   └── vite-env.d.ts
+├── tailwind.config.js
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+11 directories, 38 files

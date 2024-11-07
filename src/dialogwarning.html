@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warning</title>
+  <link rel="stylesheet" href="/src/styles/dialogWarning.css">
+</head>
+<body>
+  <div class="mainWrapper">
+    <div id="message">URL activity report</div>
+    <div class="firstConentInfo">
+      <div class="effect-holder">
+        <div class="dropdown-style">
+          <img class="imgIcons" alt="Malicious" src="assets/malware.png"/>
+          <h3>Malicious:</h3>
+          <p id="maliciousTotal" class="status-number color-red">999</p>
+        </div>
+      </div>
+      <div class="effect-holder">
+        <div class="dropdown-style">
+          <img class="imgIcons" alt="Suspicious" src="assets/suspicious.png"/>
+          <h3>Suspicious:</h3>
+          <p id="suspiciousTotal" class="status-number color-yellow">999</p>
+        </div>
+      </div>
+      <div class="effect-holder">
+        <div class="dropdown-style">
+          <img class="imgIcons" alt="Undetected" src="assets/undected.svg"/>
+          <h3>Undetected:</h3>
+          <p id="undetectedTotal" class="status-number color-gray">999</p>
+        </div>
+      </div>
+      <div class="effect-holder">
+        <div class="dropdown-style">
+          <img class="imgIcons" alt="Harmless" src="assets/harmless.png"/>
+          <h3>Harmless:</h3>
+          <p id="harmlessTotal" class="status-number color-green">999</p>
+        </div>
+      </div>
+    </div>
+    <div class="firstConentInfo">
+      <div class="effect-holder">
+        <div class="dropdown-style">
+          <img class="imgIcons" alt="scope" src="assets/scope.png"/>
+          <h3>URL:</h3>
+          <p class="truncate">https://developer.chrome.com/docs/extensions/reference/api/declarativeNetRequest?hl=es-419#rules_and_rulesets</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="firstConentInfo">
+      <div class="effect-holder">
+        <div class="dropdown-style flex-col gap-0">
+          <h2>
+            Clicks & Tricks
+          </h2>
+          <ul class="tips-list">
+            <li>Verify the Sender's Information: Check the email address and domain closely.</li>
+            <li>Look for HTTPS and SSL Certificates: Ensure the site uses HTTPS and has a valid SSL certificate.</li>
+            <li>Be Wary of Urgent or Unusual Requests: Verify urgent requests directly with the organization.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="firstConentInfo">
+      <div class="effect-holder">
+        <div class="dropdown-style flex-col">
+          <h2>
+            Are you sure you want to go back to the url ?
+          </h2>
+          <div class="btns-contaniner">
+            <button class="btn-confirm" onclick="">Confirm</button>
+            <button class="btn-cancel" onclick="">Close the tab</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- <div class="effect-holder2">
+      <div class="dropdown-style">
+        <span>Some Message</span>
+      </div>
+    </div>
+    <div class="effect-holder2 dark">
+      <div class="dropdown-style black">
+        <span>Some Message</span>
+      </div>
+    </div>
+    <div class="effect-holder2">
+      <div class="dropdown-style black">
+        <span>Some Message</span>
+      </div>
+    </div>
+  </div> -->
+
+</body>
+</html>
