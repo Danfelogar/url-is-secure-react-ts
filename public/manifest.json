@@ -5,7 +5,7 @@
   "description": "This extension scans the URL of the current tab and displays the result.",
   "background": {
     "scripts": ["background.js"],
-    "persistent": false
+    "persistent": true
   },
   "permissions": [
     "storage",
@@ -15,9 +15,9 @@
     "webRequestBlocking",
     "declarativeNetRequest",
     "declarativeNetRequestWithHostAccess",
-    "scripting"
+    "http://*/*",
+    "https://*/*"
   ],
-  "host_permissions": ["http://*/*", "https://*/*"],
   "icons": {
     "16": "icons/icon16.png",
     "32": "icons/icon32.png",
@@ -31,15 +31,10 @@
     }
   ],
   "web_accessible_resources": [
-    {
-      "resources": [
-        "dist/*",
-        "dialogWarning.html",
-        "dialogWarning.css",
-        "assets/*",
-        "icons/*"
-      ],
-      "matches": ["<all_urls>"]
-    }
+    "dist/*",
+    "dialogWarning.html",
+    "dialogWarning.css",
+    "assets/*",
+    "icons/*"
   ]
 }
